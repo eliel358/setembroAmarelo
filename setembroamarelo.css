@@ -4,7 +4,7 @@ html,body{
 }
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
     height: min-content;
@@ -145,6 +145,8 @@ button:hover{
 .campaing-text{
     text-wrap: wrap;
     flex-wrap: wrap;
+    font-size: 0.9em;
+    margin: 0em 1em;
 }
 p{
     font-size: 2em;
