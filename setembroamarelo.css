@@ -1,0 +1,169 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: min-content;
+    padding: 10px;
+    background-color: #ffff56;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    margin: 0;
+    padding: 0;
+}
+.nav-list {
+    list-style-type: none;
+}
+.logo{
+    border-radius: 100px;
+    aspect-ratio: 1/1;
+    width: 100%;
+    max-width: 50px;
+}
+.nav-list li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-list li a {
+    color: black;
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-icon span {
+    background-color: white;
+    height: 3px;
+    width: 25px;
+    margin: 4px;
+}
+
+@media (max-width: 800px) {
+    .nav-list {
+        display: none;
+    }
+
+    .menu-icon {
+        display: flex;
+    }
+}
+
+*{
+    /* outline: 1px solid black; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1,h2{
+    color: rgb(255, 234, 0);
+    background-color: black;
+    width: fit-content;
+    padding: 0.4em;
+    border-radius: 10px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 60%;
+}
+h2{
+    font-size: 3em;
+}
+section{
+    width: fit-content;
+    /* max-width: ; */
+    height: fit-content;
+    flex-wrap: wrap;
+    margin: 1em;
+    /* padding: 1em; */
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.organizer-img{
+    aspect-ratio: 1/1;
+}
+li{
+    font-size: 2em;
+}
+table,th,tr,td{
+    border: 1px solid black;
+}
+td,th{
+    font-size: 2em;
+}
+.conteiner-help{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.button-help{
+    position: absolute;
+}
+button{
+    color: rgb(255, 234, 0);
+    background-color: black;
+    width: fit-content;
+    padding: 0.4em;
+    border-radius: 10px;
+    transition: all 1s;
+}
+button:hover{
+    background-color: rgb(33, 33, 33);
+    box-shadow: 0px 0px 10px 10px rgb(255, 255, 26);
+    transition: all 1s;
+    cursor: pointer;
+}
+*{
+    transition: all 1s;
+}
+.campaing-text{
+    text-wrap: wrap;
+    flex-wrap: wrap;
+}
+p{
+    font-size: 2em;
+}
+.day{
+    width: 10em;
+    height: 10em;
+    font-weight: 20px;
+    font-size: 1em;
+    text-align: center;
+}
+footer{
+    width: 1300px;
+    padding: 600px;
+    height: fit-content;
+    padding: 0;
+    background: color #ffff56 ;
+    color:black;
+}
+a{
+    color: black;
+}
