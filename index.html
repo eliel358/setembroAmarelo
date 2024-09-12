@@ -14,23 +14,28 @@
         <nav>
             <ul class=" nav-list">
                 <li><a href="#Início">Início</a></li>
-                <li><a href="#comoAjudar">Sobre</a></li>
+                <li><a href="#Sobre">Sobre</a></li>
                 <li><a href="#objetivos">Serviços</a></li>
                 <li><a href="#contato">Contato</a></li>
+                <li><a href="objetivos">objetivos</a></li>
+                <li><a href="Organizadores">Organizadores</a></li>
+                <li><a href="ComoAjudarAlguém">Como Ajudar Alguém</a><li>
+                <li><a href="Calendario">Calendario</a></li>
+                <li><a href="Busque">Busque</a></li>
+                <li><a href="Depoimentos">Depoimentos</a></li>
+                <li><a href="Entrevistas">Entrevistas</a></li>
+                <li><a href="coisaSeria">coisaSeria</a></li>
+                <li><a href="SejaVoluntario">SejaVoluntario</a></li>
+                <li><a href="contatos">contatos</a></li>
             </ul>
-            <div class=" menu-icon">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
         </nav>
     </header>
     
-    <section class="row" id="Início" style="justify-content: space-around;">
+    <section class="row" id="Início" style="justify-content: space-around;  flex-wrap: wrap; text-wrap: wrap;">
         <img src="https://www.ufc.br/images/ft_210903_setembroamarelo_gr.png">
-        <h2>Boas vindas!</h2>
+        <h2 class="welcome">Boas vindas!</h2>
     </section>
-    <section id="sobre">
+    <section id="Sobre">
         <h2>Sobre a campanha</h2>
         <div class="row" >
             <div class="column" >
@@ -40,7 +45,7 @@
         </div>
     </section>
     <section>
-        <div class="objectives-conteiner column"></div>
+        <div id="objetivos" class="objectives-conteiner column"></div>
             <h2>Objetivos</h2>
             <ol>
                 <li>'Aumentar a Conscientização e a Educação'</li>
@@ -54,7 +59,7 @@
             </ol>
         </div>
     </section>
-    <section class="row" style="gap: 5em; align-items: center; justify-content: start; flex-wrap: nowrap;"> 
+    <section id="Organizadores" class="row" style="gap: 5em; align-items: center; justify-content: start; flex-wrap: nowrap;"> 
         
         <div class="column">
             <h2>Organizadores </h2>
@@ -78,7 +83,7 @@
         </div>
     </section>
     
-    <section class="row">
+    <section id="ComoAjudarAlguém" class="row">
             <section class="column">
                 
                 <h2>Como ajudar alguém</h2>
@@ -118,7 +123,7 @@
                 </table>
             </section>
         </section>
-        <section class="column">
+        <section id="Calendario" class="column">
             <h2>Calendário e Eventos neste Mês</h2>
             <table>
                 <th colspan="7">Setembro</th>
@@ -173,17 +178,17 @@
                 </tr>
             </table>
         </section>
-        <section>
+        <section id="Busque">
             <h2>Busque Ajuda</h2>
             <div class="conteiner-help">
                 <img style="width: 40%;" src="./310595.svg">
                 <button onclick="document.location.href='https://cvv.org.br/'"  class="button-help" style="height: fit-content; font-size: 2.5em;">Peça ajuda</button>
             </div>
         </section>
-        <section>
+        <section style="margin-top: 3em;" id="Depoimentos">
             <div class="column">
                 <h2>Depoimentos</h2>
-                <div class="row" style=" align-items: start; flex-wrap: wrap;">
+                <div class="row" style=" align-items: start; flex-wrap: wrap; gap: 2em;">
                     <div class="column">
                         <h2>Jelena Chagas</h2>
                         <img class="organizer-img" style="width: 100%; max-width: 20em;" src="././download(1).jpg">
@@ -206,7 +211,7 @@
                 </div>
             </div>
         </section>
-        <section class="column" style="gap: 1em;">
+        <section class="column" id="Entrevistas" style="gap: 1em;">
             <h2>Entrevistas e videos</h2>
             <div class="row" style="gap: 2em;">
                 <iframe width="853" height="480" src="https://www.youtube.com/embed/XFUTijKeVvk" title="ABP TV - Especial Setembro Amarelo: como prevenir o suicídio (19/09/2023)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -222,7 +227,7 @@
                 <!-- <img style="aspect-ratio: 16/9; width: 30em;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBGLgkk3kmiM0LA9aMz7Dtit7hXbgydSBxaQ&s"> -->
             </div>
         </section>
-        <section class="column" style="width: 100%; max-width: 90%;">
+        <section class="column" id="coisaSeria" style="width: 100%; max-width: 90%;">
             <h2>Saúde mental é coisa séria!!</h2>
             <p>A saúde mental não se limita apenas ao que sentimos individualmente. Ela é uma rede de fatores relacionados. De acordo com a <a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/saude-mental">Organização Mundial de Saúde (OMS)</a>, a Saúde Mental pode ser considerada um estado de bem-estar vivido pelo indivíduo, que possibilita o desenvolvimento de suas habilidades pessoais para responder aos desafios da vida e contribuir com a comunidade.
 
@@ -232,12 +237,12 @@
                 
                 Entender a saúde mental como algo que envolve o corpo, as emoções e a forma como interagimos ajuda a ver que todos têm um papel importante em cuidar do bem-estar de todos, cuidando de nós mesmos e apoiando uns aos outros.</p>
         </section>
-        <section class="column" style="box-shadow: 0px 0px 20px 10px black ; padding: 2em;">
+        <section class="column" id="Seja voluntario" style="box-shadow: 0px 0px 20px 10px black ; padding: 2em;">
             <h2>Seja voluntario !</h2>
             <button style="font-size: 3em;" onclick="document.location.href='https://cvv.org.br/voluntario'">Clique aqui!</button>
         </section>
    <footer>    
-        <section>
+        <section id="contatos">
             <h2>Contato</h2>
             <ul>
                 <li>Centro de Valorização da Vida: 188</li>
