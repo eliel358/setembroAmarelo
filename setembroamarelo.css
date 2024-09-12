@@ -1,18 +1,21 @@
 html,body{
     margin: 0;
     padding: 0;
+    display: flex;
 }
 header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
     height: min-content;
     padding: 10px;
     background-color: #ffff56;
-    margin: 0;
-    padding: 0;
 }
+@media (max-width: 320px) {
+    .welcome{
+        display: none;
+    }
+  }
 nav{
     margin: 0;
     padding: 0;
@@ -51,7 +54,7 @@ nav{
     margin: 4px;
 }
 
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
     .nav-list {
         display: none;
     }
@@ -59,7 +62,7 @@ nav{
     .menu-icon {
         display: flex;
     }
-}
+} */
 
 *{
     /* outline: 1px solid black; */
